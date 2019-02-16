@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DrawSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="168f6a6d9e0" ></w:Config>
+		<e:Rect id="bg" fillColor="0xffffff" top="0" bottom="0" left="0" right="0" touchEnabled="true"/>
+	<e:Group id="clearBtn" x="252" y="35.69">
+		<e:Image source="e_btn_qd_png" y="0" x="0"/>
+		<e:Label horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textColor="0xffecd8" stroke="1" bold="true" text="清除"/>
+	</e:Group>
+	<e:Group id="ABtn" y="146" horizontalCenter="-171">
+		<e:Image source="e_btn_qd_png" y="0" x="0"/>
+		<e:Label horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textColor="0xFFECD8" stroke="1" bold="true" text="A"/>
+	</e:Group>
+	<e:Group id="BBtn" y="146" horizontalCenter="0">
+		<e:Image source="e_btn_qd_png" y="0" x="0"/>
+		<e:Label horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textColor="0xFFECD8" stroke="1" bold="true" text="B"/>
+	</e:Group>
+	<e:Group id="GBtn" y="146" horizontalCenter="168">
+		<e:Image source="e_btn_qd_png" y="0" x="0"/>
+		<e:Label horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" size="28" textColor="0xFFECD8" stroke="1" bold="true" text="G"/>
+	</e:Group>
+	<e:Image id="english" source="B_png" horizontalCenter="0" verticalCenter="0" scaleX="2" scaleY="2" touchEnabled="false"/>
+</e:Skin>
